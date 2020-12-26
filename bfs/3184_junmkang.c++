@@ -1,3 +1,4 @@
+// 양
 #include <iostream>
 #include <queue>
 
@@ -14,13 +15,10 @@ void	chk_map(int i, int j, int r, int c)
 
 	s = w = 0;
 	queue<pair<int, int> > q;
-
 	if (map[i][j] == 'o') s++;
 	else if (map[i][j] == 'v') w++;
-
 	map[i][j] = '#';
 	q.push({i, j});
-
 	while(!q.empty())
 	{
 		pair<int, int> temp = q.front();
@@ -31,7 +29,6 @@ void	chk_map(int i, int j, int r, int c)
 			x = temp.second + nx[k];
 			if (y < 0 || x < 0 || y >= r || x >= c) continue;
 			if (map[y][x] == '#') continue;
-			
 			if (map[y][x] == 'o') s++;
 			else if (map[y][x] == 'v') w++;
 			map[y][x] = '#';
