@@ -1,11 +1,12 @@
+// 양 한마리... 양 두마리...
 #include <iostream>
 #include <queue>
-​
+
 using namespace std;
-​
+
 char map[101][101];
 char chk[101][101];
-​
+
 int main(void)
 {
 	int t, h, w;
@@ -30,7 +31,7 @@ int main(void)
 				if (map[i][j] == '#' && chk[i][j] == 0)
 				{
 					count++;
-					queue<pair<int, int>> q;
+					queue<pair<int, int> > q;
 					q.push({i, j});
 					chk[i][j] = 1;
 					while(!q.empty())
