@@ -9,6 +9,10 @@
 		"string": "c",
 		"string_view": "c",
 		"vector": "c",
-		"iostream": "cpp"
+		"iostream": "cpp",
+		"algorithm": "cpp",
+		"chrono": "cpp",
+		"limits": "cpp",
+		"ratio": "cpp"
 	}
 }
