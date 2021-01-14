@@ -13,6 +13,18 @@
 		"algorithm": "cpp",
 		"chrono": "cpp",
 		"limits": "cpp",
-		"ratio": "cpp"
+		"ratio": "cpp",
+		"__bit_reference": "cpp",
+		"bitset": "cpp",
+		"unordered_map": "cpp",
+		"__string": "cpp",
+		"ios": "cpp",
+		"atomic": "cpp",
+		"exception": "cpp",
+		"functional": "cpp",
+		"istream": "cpp",
+		"locale": "cpp",
+		"ostream": "cpp",
+		"tuple": "cpp"
 	}
 }
